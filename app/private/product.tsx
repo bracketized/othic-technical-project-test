@@ -18,7 +18,7 @@ import {
 import { useProducts } from "@/context/ProductContext";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 
-export default function ProductPage() {
+export default function ProductScreen() {
   const { products, loading, error, page, totalPages, nextPage, prevPage } =
     useProducts();
   const insets = useSafeAreaInsets();
@@ -48,7 +48,7 @@ export default function ProductPage() {
     );
   };
 
-  const renderItem = ({ item }) => (
+  const renderItem = ({ item }: any) => (
     <View style={styles.loadingCard}>
       <Card.Cover source={{ uri: item.thumbnail }} />
       <Card.Content style={{ marginTop: 8, marginBottom: 18 }}>

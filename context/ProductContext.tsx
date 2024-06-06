@@ -49,6 +49,10 @@ interface ProductsContextType {
   products: Product[];
   loading: boolean;
   error: string | null;
+  page: number;
+  totalPages: number;
+  nextPage: () => void;
+  prevPage: () => void;
   fetchProducts: (pageNum: number) => void;
 }
 
@@ -57,6 +61,10 @@ const ProductsContext = createContext<ProductsContextType>({
   products: [],
   loading: false,
   error: null,
+  page: 0,
+  totalPages: 0,
+  nextPage: () => {},
+  prevPage: () => {},
   fetchProducts: (pageNum: number) => {},
 });
 

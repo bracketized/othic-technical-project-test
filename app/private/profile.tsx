@@ -3,7 +3,7 @@ import { StyleSheet, ScrollView, View } from "react-native";
 import { Avatar, Text, Divider, List } from "react-native-paper";
 import { useAuth } from "@/context/AuthenticationContext";
 
-export default function TabOneScreen() {
+export default function ProfileScreen() {
   const {
     session: { username, image },
     logout,
