@@ -1,0 +1,29 @@
+Expo Project: Technical test OTHIS
+Welcome to Technical test OTHIS, a React Native application built using Expo!
+
+# Getting Started
+
+To run the project locally, follow these steps:
+
+Install Expo CLI: If you haven't already installed Expo CLI, you can do so by running:
+
+npm install -g expo-cli
+Clone the Repository: Clone this repository to your local machine:
+
+git clone https://github.com/bracketized/othic-technical-project-test.git
+Navigate to the Project Directory: Change directory to the project directory:
+
+cd app
+Install Dependencies: Install project dependencies by running:
+
+npm install
+Start the Expo Server: Start the Expo development server by running:
+
+npm start
+This command will open the Expo DevTools in your default web browser. You can also run the app on an iOS or Android simulator, or scan the QR code with the Expo Go app on your device.
+
+Test Accounts for Login
+You can use the following test accounts to log in to the app:
+
+Username: emilys
+Password: emilyspass

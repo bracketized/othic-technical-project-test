@@ -1,2 +1,0 @@
-# othic-technical-project-test
- 
